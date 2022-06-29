@@ -23,6 +23,11 @@ const InputSubmit = styled.input`
         transition: .1s;
         cursor: pointer;
     }
+
+    @media (max-width: 600px){
+        width: 65%;
+        margin: auto;
+    }
 `
 
 const Form = ({setResults}) => {

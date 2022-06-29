@@ -17,6 +17,10 @@ const Select = styled.select`
     padding: 10px;
     display: block;
     font-size: 15px;
+
+    @media (max-width: 600px){
+        width: 65%;
+    }
 `
 
 const useSelectCrypto = (label, currencies) => {

@@ -34,7 +34,7 @@ const Display = ({display}) => {
     const { PRICE, HIGHDAY, LOWDAY, IMAGEURL, CHANGEPCT24HOUR } = display
 
   return (
-      <Result>
+    <Result>
         <div>
             <Price>Price right now is: {PRICE}</Price>
             <P>Highest price today: {HIGHDAY}</P>
